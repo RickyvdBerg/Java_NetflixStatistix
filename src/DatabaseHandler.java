@@ -11,7 +11,7 @@ public class DatabaseHandler {
     {
 l
     }
-
+n
     public void createConnection() {
 
         // Connection beheert informatie over de connectie met de database.
