@@ -9,7 +9,7 @@ public class DatabaseHandler {
 
     public DatabaseHandler()
     {
-l
+
     }
 
     public void createConnection() {
