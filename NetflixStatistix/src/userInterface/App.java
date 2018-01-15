@@ -571,7 +571,9 @@ public class App implements Runnable{
 		
 		spinProfileID = new JSpinner();
 		spinProfileID.setModel(new SpinnerNumberModel(new Integer(1), new Integer(1), null, new Integer(1)));
+		spinProfileID.setEnabled(false);
 		pnlProfileFormRw2.add(spinProfileID);
+
 		
 		JLabel lblProfileSubscriberID = new JLabel("Subscriber ID");
 		lblProfileSubscriberID.setHorizontalAlignment(SwingConstants.CENTER);
@@ -997,8 +999,8 @@ public class App implements Runnable{
 		        if (row >= 0 && col >= 0) {
 		        	//set the values based on the row clicked and the column assigned
 		        	spinWatchedID.setValue(tableWatched.getModel().getValueAt(row, 0));
-		        	spinWatchedPercentage.setValue(tableWatched.getModel().getValueAt(row, 3));
-		        	
+					int percent = Integer.parseInt(tableWatched.getModel().getValueAt(row, 3).toString());
+		        	spinWatchedPercentage.setValue(percent);
 		        }
 			}
 		});

@@ -15,18 +15,18 @@
       <file leaf-file-name="DatabaseHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/database/DatabaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
+            <state relative-caret-position="1365">
               <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseHandlerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseHandlerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/database/DatabaseHandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="231">
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="DbUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/database/DbUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="126">
               <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="50" />
               <folding />
             </state>
@@ -45,7 +45,7 @@
       <file leaf-file-name="JTextFieldLimit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/userInterface/JTextFieldLimit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="189">
               <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
@@ -55,19 +55,22 @@
       <file leaf-file-name="WarningMessage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/userInterface/WarningMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="126">
               <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/userInterface/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="1419" column="32" lean-forward="false" selection-start-line="1419" selection-start-column="32" selection-end-line="1419" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="86">
+              <caret line="1002" column="59" lean-forward="false" selection-start-line="1002" selection-start-column="59" selection-end-line="1002" selection-end-column="59" />
+              <folding>
+                <element signature="e#4637#5591#0" expanded="true" />
+                <element signature="e#5590#5591#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +78,8 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/userInterface/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +96,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+      <find>ID</find>
+      <find>spinProfileID</find>
+      <find>Watched</find>
+    </findStrings>
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -103,9 +114,10 @@
       <list>
         <option value="$PROJECT_DIR$/tests/database/DbUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/userInterface/JTextFieldLimit.java" />
-        <option value="$PROJECT_DIR$/tests/userInterface/AppTest.java" />
         <option value="$PROJECT_DIR$/tests/userInterface/WarningMessageTest.java" />
         <option value="$PROJECT_DIR$/tests/database/DatabaseHandlerTest.java" />
+        <option value="$PROJECT_DIR$/tests/userInterface/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/userInterface/App.java" />
       </list>
     </option>
   </component>
@@ -136,6 +148,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,21 +177,13 @@
             </path>
             <path>
               <item name="NetflixStatistix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetflixStatistix" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetflixStatistix" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +194,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/miglayout15-swing.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -210,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in NetflixStatistix">
+  <component name="RunManager" selected="Application.NetflixStatistix">
     <configuration name="All in NetflixStatistix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="NetflixStatistix" />
@@ -361,13 +369,11 @@
       <updated>1516035286460</updated>
       <workItem from="1516035296577" duration="1741000" />
       <workItem from="1516037055950" duration="1665000" />
+      <workItem from="1516043090281" duration="961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_NetflixStatistix - 2018.01.15 at 18h 43m 38s.xml">
-      <configuration name="All in NetflixStatistix" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_NetflixStatistix - 2018.01.15 at 18h 44m 28s.xml">
       <configuration name="All in NetflixStatistix" configurationId="JUnit" />
     </history-entry>
@@ -395,24 +401,27 @@
     <history-entry file="All_in_NetflixStatistix - 2018.01.15 at 18h 51m 28s.xml">
       <configuration name="All in NetflixStatistix" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_NetflixStatistix - 2018.01.15 at 20h 06m 52s.xml">
+      <configuration name="All in NetflixStatistix" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3406000" />
+    <option name="totallyTimeSpent" value="4367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="TMC Test Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -423,13 +432,15 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -446,6 +457,67 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/database/DatabaseHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/database/DbUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterface/JTextFieldLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterface/WarningMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterface/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29799">
+          <caret line="1419" column="32" lean-forward="false" selection-start-line="1419" selection-start-column="32" selection-end-line="1419" selection-end-column="32" />
+          <folding>
+            <element signature="e#4637#5591#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/userInterface/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/database/DatabaseHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/database/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -482,7 +554,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24123">
           <caret line="1419" column="32" lean-forward="false" selection-start-line="1419" selection-start-column="32" selection-end-line="1419" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#4637#5591#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -497,35 +572,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/database/DbUtilsTest.java" />
-    <entry file="file://$PROJECT_DIR$/tests/userInterface/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/userInterface/WarningMessageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/userInterface/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="1419" column="32" lean-forward="false" selection-start-line="1419" selection-start-column="32" selection-end-line="1419" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/userInterface/WarningMessageTest.java" />
     <entry file="file://$PROJECT_DIR$/src/userInterface/WarningMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="126">
           <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
@@ -533,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/userInterface/JTextFieldLimit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="189">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
@@ -541,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/DbUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="126">
           <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="50" />
           <folding />
         </state>
@@ -549,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/database/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
+        <state relative-caret-position="1365">
           <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="48" />
           <folding />
         </state>
@@ -557,9 +607,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/database/DatabaseHandlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="231">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/userInterface/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterface/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="1002" column="59" lean-forward="false" selection-start-line="1002" selection-start-column="59" selection-end-line="1002" selection-end-column="59" />
+          <folding>
+            <element signature="e#4637#5591#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
