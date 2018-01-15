@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="JUnit5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Library/org.junit.jupiter.api_5.0.0.v20170910-2246.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/org.opentest4j_1.0.0.v20170910-2246.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

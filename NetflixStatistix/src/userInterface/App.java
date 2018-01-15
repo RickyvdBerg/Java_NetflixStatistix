@@ -74,11 +74,11 @@ public class App implements Runnable{
 	private JSpinner spinProfileDay;
 	private JSpinner spinProfileMonth;
 	private JSpinner spinProfileYear;
-	private JSpinner spinProfileSubscriberID;
 	private JSpinner spinProfileID;
 	private JSpinner spinWatchedID;
 	private JSpinner spinWatchedPercentage;
 	
+	private JComboBox cbProfileSubscriberID;
 	private JComboBox cbOverview1Serie; 
 	private JComboBox cbOverview2Serie; 
 	private JComboBox cbOverview2Subscriber; 
@@ -169,6 +169,7 @@ public class App implements Runnable{
 				{
 				//user clicks on tab profile, the profile gridview should now show all profiles
 				case 1:
+					cbProfileSubscriberID.setModel(new DefaultComboBoxModel(mapSubscriberNames.values().toArray()));
 					tableProfile.setModel(dbHandler.execute("SELECT * FROM Profile"));
 					break;
 				//user clicks on tab Watched, the profile gridview should now show all watched programs
@@ -500,7 +501,7 @@ public class App implements Runnable{
 				{
 					spinProfileID.setEnabled(false);
 					tfProfileName.setEnabled(true);
-					spinProfileSubscriberID.setEnabled(true);
+					cbProfileSubscriberID.setEnabled(true);
 					spinProfileDay.setEnabled(true);
 					spinProfileMonth.setEnabled(true);
 					spinProfileYear.setEnabled(true);
@@ -521,7 +522,7 @@ public class App implements Runnable{
 				if(rbProfileUpdate.isSelected()){
 					spinProfileID.setEnabled(true);
 					tfProfileName.setEnabled(true);
-					spinProfileSubscriberID.setEnabled(true);
+					cbProfileSubscriberID.setEnabled(true);
 					spinProfileDay.setEnabled(true);
 					spinProfileMonth.setEnabled(true);
 					spinProfileYear.setEnabled(true);
@@ -542,7 +543,7 @@ public class App implements Runnable{
 				{
 					spinProfileID.setEnabled(true);
 					tfProfileName.setEnabled(false);
-					spinProfileSubscriberID.setEnabled(false);
+					cbProfileSubscriberID.setEnabled(false);
 					spinProfileDay.setEnabled(false);
 					spinProfileMonth.setEnabled(false);
 					spinProfileYear.setEnabled(false);
@@ -571,9 +572,8 @@ public class App implements Runnable{
 		lblProfileSubscriberID.setHorizontalAlignment(SwingConstants.CENTER);
 		pnlProfileFormRw2.add(lblProfileSubscriberID);
 		
-		spinProfileSubscriberID = new JSpinner();
-		spinProfileSubscriberID.setModel(new SpinnerNumberModel(new Integer(1), new Integer(1), null, new Integer(1)));
-		pnlProfileFormRw2.add(spinProfileSubscriberID);
+		cbProfileSubscriberID = new JComboBox();
+		pnlProfileFormRw2.add(cbProfileSubscriberID);
 		
 		JPanel pnlProfileFormRw3 = new JPanel();
 		pnlProfileForm.add(pnlProfileFormRw3);
@@ -628,13 +628,15 @@ public class App implements Runnable{
 		btnProfileExecute.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				//if radiobutton add is selected
+				
+				int subscriberId = (int) getKeyFromValue(mapSubscriberNames, cbProfileSubscriberID.getSelectedItem().toString());
 				if(rbProfileAdd.isSelected())
 				{
 					//if the fields are not empty
 					if(!tfProfileName.getText().equals(""))
 					{
 						//call the dbHandler to execute a query with values from the form
-						dbHandler.execute("INSERT INTO Profile (SubscriberId, ProfileName, DOB) VALUES ('" + spinProfileSubscriberID.getValue() + "', '" + tfProfileName.getText() + "','" + 
+						dbHandler.execute("INSERT INTO Profile (SubscriberId, ProfileName, DOB) VALUES ('" + subscriberId + "', '" + tfProfileName.getText() + "','" + 
 						spinProfileYear.getValue() + "-" + spinProfileMonth.getValue()+ "-" + spinProfileDay.getValue() + "');");
 					}
 					else
@@ -649,7 +651,7 @@ public class App implements Runnable{
 					if(!tfProfileName.getText().equals(""))
 					{
 						//call the dbHandler to execute a query with values from the form
-						dbHandler.execute("UPDATE Profile SET SubscriberId = '" + spinProfileSubscriberID.getValue() + "', ProfileName = '" + tfProfileName.getText() + "', DOB = '" + 
+						dbHandler.execute("UPDATE Profile SET SubscriberId = '" + subscriberId + "', ProfileName = '" + tfProfileName.getText() + "', DOB = '" + 
 								spinProfileYear.getValue() + "-" + spinProfileMonth.getValue()+ "-" + spinProfileDay.getValue() + "' WHERE Id = " + spinProfileID.getValue());
 					}
 					else
@@ -688,7 +690,6 @@ public class App implements Runnable{
 		        	//set the values based on the row clicked and the column assigned
 		        	spinProfileID.setValue(tableProfile.getModel().getValueAt(row, 0));
 		        	tfProfileName.setText(tableProfile.getModel().getValueAt(row, 1).toString());
-		        	spinProfileSubscriberID.setValue(tableProfile.getModel().getValueAt(row, 2));
 		        	//It works but Java dates are really weird and somehow after an hour trying this worked
 		        	//It just gets the Date from the table set it to date then it gets the full date string and it we split that string to get the full year
 		        	//instead of a only the last 2 numbers. We do this by splitting the date string and converting it to an int

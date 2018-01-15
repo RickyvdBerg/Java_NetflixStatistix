@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="jar://$MODULE_DIR$/jgoodies-forms-1.8.0.jar!/" />
-    <libelement value="jar://C:/Program Files/Microsoft JDBC Driver 6.2 for SQL Server/sqljdbc_6.2/enu/mssql-jdbc-6.2.2.jre8.jar!/" />
-    <libelement value="jar://$USER_HOME$/Desktop/jgoodies-common-1.2.0.jar!/" />
-    <libelement value="jar://$USER_HOME$/Desktop/junit-4.6.jar!/" />
-    <libelement value="jar://$MODULE_DIR$/miglayout15-swing.jar!/" />
     <src_description expected_position="1">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
     </src_description>
@@ -19,65 +14,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="jgoodies-forms-1.8.0.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/jgoodies-forms-1.8.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/jgoodies-forms-1.8.0-sources.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="mssql-jdbc-6.2.2.jre8.jar">
-        <CLASSES>
-          <root url="jar://C:/Program Files/Microsoft JDBC Driver 6.2 for SQL Server/sqljdbc_6.2/enu/mssql-jdbc-6.2.2.jre8.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="jgoodies-common-1.2.0.jar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/jgoodies-common-1.2.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="junit-4.6.jar">
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/junit-4.6.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="miglayout15-swing.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/miglayout15-swing.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/miglayout-src.zip!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="jgoodies-forms-1.8.0" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library name="JUnit5">
-        <CLASSES>
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/junit/lib/junit-jupiter-api-5.0.0.jar!/" />
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/junit/lib/opentest4j-1.0.0.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" exported="" name="mssql-jdbc-6.2.2.jre8" level="project" />
+    <orderEntry type="library" exported="" name="JUnit5" level="project" />
   </component>
 </module>
