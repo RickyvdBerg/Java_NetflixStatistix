@@ -1,6 +1,5 @@
 package database;
 
-import com.microsoft.sqlserver.jdbc.SQLServerException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

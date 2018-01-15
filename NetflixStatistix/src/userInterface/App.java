@@ -12,9 +12,7 @@ import javax.swing.JPanel;
 import java.awt.GridBagLayout;
 import java.awt.GridBagConstraints;
 import java.awt.Insets;
-import com.jgoodies.forms.layout.FormLayout;
-import com.jgoodies.forms.layout.ColumnSpec;
-import com.jgoodies.forms.layout.RowSpec;
+
 
 import database.DatabaseHandler;
 
@@ -36,23 +34,19 @@ import javax.swing.ButtonGroup;
 import javax.swing.ComboBoxModel;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JFormattedTextField;
-import com.jgoodies.forms.layout.FormSpecs;
+
 import javax.swing.JSpinner;
 import javax.swing.SpinnerDateModel;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Calendar;
+
 import javax.swing.SpinnerNumberModel;
-import java.awt.CardLayout;
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
+
 import javax.swing.JScrollPane;
-import javax.swing.AbstractAction;
-import javax.swing.Action;
+
 import javax.swing.JComboBox;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
+
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.text.ParseException;
@@ -60,8 +54,6 @@ import java.text.SimpleDateFormat;
 
 import javax.swing.event.ChangeListener;
 import javax.swing.event.ChangeEvent;
-import net.miginfocom.swing.MigLayout;
-import java.awt.Component;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
